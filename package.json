@@ -125,7 +125,7 @@
     "webpack": "4.38.0",
     "webpack-cli": "^3.3.10",
     "webpack-dev-middleware": "^3.7.2",
-    "webpack-dev-server": "^3.9.0",
+    "webpack-dev-server": "^3.11.2",
     "webpack-manifest-plugin": "^2.2.0",
     "webpack-unassert-loader": "^1.2.0"
   },
@@ -146,7 +146,7 @@
     "helmet": "^3.21.2",
     "mkdirp": "^0.5.1",
     "mozlog": "^2.2.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "redis": "^2.8.0",
     "selenium-standalone": "^6.15.6",
     "ua-parser-js": "^0.7.20"
