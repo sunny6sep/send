@@ -13,31 +13,10 @@ module.exports = function(state, emit) {
         </h1>
         <p class="mt-2">${state.translate('legalDateStamp')}</p>
         <div class="overflow-y-scroll py-8 px-12">
-          <p class="leading-normal">
-            <span>When Mozilla receives information from you, our</span>
-            <a
-              href="https://www.mozilla.org/privacy/"
-              target="__blank"
-              rel="noopener noreferrer"
-              class="link-blue hover:underline"
-              >Mozilla Privacy Policy</a
-            >
-            <span
-              >describes how we handle that information. Below are the top
-              things you should know about Firefox Send. You can also view the
-              code</span
-            >
-            <a
-              href="https://github.com/mozilla/send/blob/master/docs/metrics.md"
-              target="__blank"
-              rel="noopener noreferrer"
-              class="link-blue hover:underline"
-              >here</a
-            >.
-          </p>
+        
           <ul class="mt-6 leading-normal">
             <li class="mb-4">
-              <b>Content</b>: Mozilla receives an encrypted copy of the file you
+              <b>Content</b>: Freakybug receives an encrypted copy of the file you
               upload but we cannot access the content or name of your encrypted
               file. By default, files are stored for a maximum of either 24
               hours or 7 days. If you choose a download cap, the file can be
@@ -63,18 +42,11 @@ module.exports = function(state, emit) {
                   activity of a file’s download URL. Although we develop our
                   services in ways that minimize identification, you should know
                   that it may be possible to correlate the IP address of a Send
-                  user to the IP address of other Mozilla services with
+                  user to the IP address of other Freakybug services with
                   accounts; and if there is a match, this could identify the
                   account email address.
                 </li>
-                <li class="mb-4">
-                  <u>Firefox Account</u>: This is required for authentication
-                  only if you wish to upload larger file sizes. Your Firefox
-                  Account record will retain aggregate data on your usage of
-                  Send: for example, if you created a Firefox Account in
-                  connection with Send, number of files sent and approximate
-                  file sizes, and how many times you’ve used the service.
-                </li>
+              
               </ul>
             </li>
             <li class="mb-4">
