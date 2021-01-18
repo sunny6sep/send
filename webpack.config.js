@@ -34,7 +34,7 @@ const serviceWorker = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
   },
-  devtool: 'source-map',
+  devtool: false,
   module: {
     rules: [
       {
@@ -198,7 +198,7 @@ const web = {
     new AndroidIndexPlugin(),
     new ManifestPlugin() // used by server side to resolve hashed assets
   ],
-  devtool: 'source-map',
+  devtool: false,
   devServer: {
     before:
       process.env.NODE_ENV === 'development' && require('./server/bin/dev'),
