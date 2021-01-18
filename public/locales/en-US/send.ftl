@@ -44,7 +44,7 @@ maxPasswordLength = Maximum password length: { $length }
 # A short status message shown when there was an error setting the password
 passwordSetError = This password could not be set
 
-## Send version 2 strings
+## Send version 2 strings 
 
 # Freakybug Send, Send, Freakybug, Mozilla are proper names and should not be localized
 -send-brand = Freakybug Send
