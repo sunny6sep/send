@@ -47,10 +47,10 @@ passwordSetError = This password could not be set
 ## Send version 2 strings
 
 # Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+-send-brand = Freakybug Sends
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Freakybug
+-mozilla = Send
 
 introTitle = Simple, private file sharing
 introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
