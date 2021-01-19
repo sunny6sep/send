@@ -63,15 +63,25 @@ module.exports = function(state, body = '') {
           color="#838383"
         />
         <script defer src="${assets.get('app.js')}"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-KTSF525E0X"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'G-KTSF525E0X');
+        </script>
       </head>
       <noscript>
         <div class="noscript">
           <h2>${state.translate('javascriptRequired')}</h2>
           <p>
-            <a
-              class="link"
-              href="https://github.com/mozilla/send/blob/master/docs/faq.md#why-does-firefox-send-require-javascript"
-            >
+            <a class="link" href="#">
               ${state.translate('whyJavascript')}
             </a>
           </p>
