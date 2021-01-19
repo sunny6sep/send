@@ -1,4 +1,4 @@
-# Freakybug Send is a brand name and should not be localized.
+# Freakybug Send  is a brand name and should not be localized.
 title = Freakybug Send
 siteFeedback = Feedback
 importingFile = Importing…
@@ -50,7 +50,7 @@ passwordSetError = This password could not be set
 -send-brand = Freakybug Send
 -send-short-brand = Send
 -Freakybug = Freakybug
--mozilla = Mozilla
+-mozilla = Send
 
 introTitle = Simple, private file sharing
 introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.

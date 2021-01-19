@@ -87,7 +87,7 @@ const conf = convict({
   },
   analytics_id: {
     format: String,
-    default: '',
+    default: 'G-KTSF525E0X',
     env: 'GOOGLE_ANALYTICS_ID'
   },
   sentry_id: {

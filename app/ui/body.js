@@ -23,7 +23,7 @@ module.exports = function body(main) {
         class="flex flex-col items-center font-sans md:h-screen md:bg-grey-10 dark:bg-black"
       >
          
-        ${main(state, emit)} 
+        ${main(state, emit)} ${state.cache(Footer, 'footer').render()} 
       </body>
     `;
     if (state.layout) {
